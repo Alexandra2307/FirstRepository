@@ -1,0 +1,13 @@
+import sys
+
+print("\nList: ")
+l = [10, 20, 30, 40, 50, 66, 88, 44]
+dlist = len(l)
+print("Len of the list: ", dlist)
+for i in range(len(l)):
+    print("index: ", i, " value: ", l[i])
+index = 6
+if (index > len(l)):
+    print("Index > lenght of list")
+    sys.exit(1)
+print("Value by index ", index, ": ", l[index])
